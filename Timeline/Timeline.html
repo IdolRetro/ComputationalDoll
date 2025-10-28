@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Timeline Archive</title>
+<style>
+body { font-family: system-ui, sans-serif; background: #111; color: #eee; padding: 20px; margin: 0; transition: background 0.3s, color 0.3s; }
+.light-mode { background: #f5f5f5; color: #222; }
+h1 { font-size: 2em; margin-bottom: 1em; }
+img { width: 100%; max-width: 500px; height: auto; display: block; margin-bottom: 10px; border-radius: 8px; }
+.entry { margin-bottom: 40px; border-bottom: 1px solid #444; padding-bottom: 20px; }
+.title { font-size: 1.5em; font-weight: bold; margin: 10px 0; }
+.text { margin-left: 10px; margin-bottom: 6px; line-height: 1.5; }
+#toggle { margin-bottom: 20px; padding: 10px 16px; font-size: 1em; cursor: pointer; border: none; border-radius: 5px; background: #333; color: #fff; }
+#toggle:hover { background: #555; }
+#search { margin-bottom: 20px; padding: 10px; width: 100%; max-width: 400px; font-size: 1em; border-radius: 5px; border: 1px solid #888; }
+@media (max-width: 600px) { .title { font-size: 1.2em; } }
+</style>
+<script>
+function toggleMode() { document.body.classList.toggle('light-mode'); }
+function searchEntries() {
+  const query = document.getElementById('search').value.toLowerCase();
+  const entries = document.getElementsByClassName('entry');
+  for (let entry of entries) {
+    const text = entry.innerText.toLowerCase();
+    entry.style.display = text.includes(query) ? 'block' : 'none';
+  }
+}
+</script>
+</head>
+<body>
+<button id='toggle' onclick='toggleMode()'>Toggle Dark/Light Mode</button>
+<input type='text' id='search' oninput='searchEntries()' placeholder='Search timeline...'>
+<h1>Timeline Archive</h1>
+<div class='entry'>
+<img src='AmasiaCollapsesIcon.png' alt='Amasia Collapses Icon'>
+<div class='title'>Amasia Collapses</div>
+<div class='text'>Amasia collapses</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>123 years after the Tears of the New Moon, Blueschist Density suddenly and unexpectedly spiked in the lowest level of Amasia. The Great Shield collapsed immediately afterward, along with the foundations of Amasia itself. In the pandemonium that followed, many people were swallowed up by something consisting of Blueschist, and less than half of the population were able to escape. This collapse nearly wiped out the heads of the Amasian government, making subsequent relief efforts and further investigation into the cause of this phenomenon difficult to execute.</div>
+</div>
+<div class='entry'>
+<img src='AnEnderIsDiscoveredIcon.png' alt='An Ender Is Discovered Icon'>
+<div class='title'>An Ender Is Discovered</div>
+<div class='text'>An Ender is discovered</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>The people realized during this period that, for one reason or another, the blue rain would only affect humans. Animals and vegetation continued to thrive under the rain, in regions now devoid of human life. One day, humans foraging in the early afternoon came under assault by a gigantic creature. Fleeing in fear, one forager recalled its appearance clearly: the sharp fangs, rending claws and bluish-black body. This would come to be Known as an Ender"one that ended the world, whose existence heralded Armageddon itself. And thus, the surface world was no longer safe in any weather.</div>
+</div>
+<div class='entry'>
+<img src='AnEnderIsRepelledForTheFirstTimeIcon.png' alt='An Ender Is Repelled For The First Time Icon'>
+<div class='title'>An Ender Is Repelled For The First Time</div>
+<div class='text'>An Ender is repelled for the first time</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Finally, after losing many lives in the process, humanity eventually succeeded in repelling a small Ender. Enders cores were discovered to be weak points, allowing the development of Cradles with weapons effective against them. Ender-related damage and injuries dropped significantly, and the scope of exploration expanded further into the outside world. This would lead to encounters with even more powerful Enders; nevertheless, it was an important step for humanity.</div>
+</div>
+<div class='entry'>
+<img src='AnnouncementOfGovernmentalPolicyPost-EstablishmentOfAmasiaIcon.png' alt='Announcement Of Governmental Policy Post-Establishment Of Amasia Icon'>
+<div class='title'>Announcement Of Governmental Policy Post-Establishment Of Amasia</div>
+<div class='text'>Announcement of governmental policy post- establishment of Amasia</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Once the Enders dwelling in the vertical shaft were defeated and construction on the Great Shield had started, the governmental policy for the period after establishment of the city was announced. While it expressed hope for the development of the city and humanity, it also announced a strict set of guidelines for becoming a resident, leading a minority of those on the surface who had been friendly toward the project to now turn against it. Certain items were objected to most strongly: Management of the population with birth control and the Terminal Union Obligation to suppress emotions using E-Supplements Division of living area based on profession Most of those who turned against the administration departed the plan and returned to their original settlements, but this also served to intensify the labor movement while radicalizing a small segment of the rebels, turning them into guerillas. This can be considered one of the primary factors in the delay of the construction of Amasia.</div>
+<div class='text'>Related Artifact | Terminal Union Matrix Diagram</div>
+</div>
+<div class='entry'>
+<img src='CompletionOfBlueschistShieldTechnologyIcon.png' alt='Completion Of Blueschist Shield Technology Icon'>
+<div class='title'>Completion Of Blueschist Shield Technology</div>
+<div class='text'>Completion of Blueschist Shield Technology</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>The AO Waves emitted by AO Crystals could pass through almost all matter and would attract Enders, meaning research into shutting AO Waves out had always been a priority. It was during this year that reflective optical paint was finally developed, capable of deflecting 99.997% of AO Waves once hardened. This made interior storage of AO far easier, while also allowing for the installation of AO engines in Cradles.</div>
+<div class='text'>Related Artifact | Shield Paint Can</div>
+</div>
+<div class='entry'>
+<img src='DevelopmentOfE-SupplementsIcon.png' alt='Development Of E-Supplements Icon'>
+<div class='title'>Development Of E-Supplements</div>
+<div class='text'>Development of E- Supplements</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Scientific research had been proceeding apace, still far behind enjoyed prior to the fall of civilization, but greatly aided by the fortuitous discovery of remnants of old computers. _ lt Was during this year that one of the products of this, Al created specifically for research purposes, produced the chemical blueprint for E-Supplements. These were initially stated as being just to help people get through the hard times prior to the completion of Amasia. Trials were conducted on volunteer researchers and criminals, and,after an apparent lack of severe side effects was confirmed, they were then mainly prescribed to the construction workers.</div>
+<div class='text'>Related Artifact | Metal Supplement Case</div>
+</div>
+<div class='entry'>
+<img src='ErnestoMoradoBecomesPresidentOfAmasiaIcon.png' alt='Ernesto Morado Becomes President Of Amasia Icon'>
+<div class='title'>Ernesto Morado Becomes President Of Amasia</div>
+<div class='text'>Ernesto Morado becomes president of Amasia</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Ernesto Morado was elected the president of Amasia. An intense apathy toward government matters was shared among all strata of Amasian citizenry. Even so, the office of the president carries much authority. Ernesto bested the Anti-Amasia Organization opposition in every facet of his campaign. At the same time, he doubled financial contributions to the organization, fanning the flames of hostility. All for the sake of Ernestos ultimate goal...</div>
+<div class='text'>Related Artifact | R statue</div>
+</div>
+<div class='entry'>
+<img src='EvacuationToUndergroundFacilitiesBeginsIcon.png' alt='Evacuation To Underground Facilities Begins Icon'>
+<div class='title'>Evacuation To Underground Facilities Begins</div>
+<div class='text'>Evacuation to underground facilities begins</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Miraculously avoiding the floods after the Tears of the New Moon, as well as the resulting Mosaic Disease, survivors slowly began to gather at facilities in each region. Most of these facilities had limited resources, however, and the resulting scramble for food led to a number of tragic incidents. At the same time, a lucky few groups managed to arrive at operable vegetation production plants, allowing them to become self- sufficient.</div>
+<div class='text'>Related Artifact | Harvesting Arm</div>
+</div>
+<div class='entry'>
+<img src='ExperimentalAoCrystalMeltingFurnaceCompletedIcon.png' alt='Experimental Ao Crystal Melting Furnace Completed Icon'>
+<div class='title'>Experimental Ao Crystal Melting Furnace Completed</div>
+<div class='text'>Experimental AO Crystal melting furnace completed</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>A joint venture between the surface and former Amasia researchers led to the development of technology that melts fragmented AO Crystals in a high-temperature, high-pressure environment to extract energy. This would allow the use of AO Crystals even without the high-performance Amasian Magus. Even so, the sheer size and intricate structure of the AO Crystal melting furnace meant that it could only be utilized at surface settlement Nests of a certain scale.</div>
+<div class='text'>Related Artifact | Mockup</div>
+</div>
+<div class='entry'>
+<img src='ExplorationOfTheOutsideWorldBeginsIcon.png' alt='Exploration Of The Outside World Begins Icon'>
+<div class='title'>Exploration Of The Outside World Begins</div>
+<div class='text'>Exploration of the outside world begins</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Even in evacuation zones and places blessed with rainfall, stores of water and food were scarce. Only scant amounts of spring water were drinkable, as consuming the rain itself was totally out of the question. Despite fear of the blue rain, people were compelled to venture into the outside world for sustenance. As far as they could see from indoors, the blue rain that had been lethal to humans seemed to have no effect on the flora and fauna. Without a weather forecast system, groups would manufacture hermetically-sealed wheeled vehicles from the relative safety of the shelters, in the hopes of protecting themselves from the rapidly increasing spells of heavy rainfall.</div>
+<div class='text'>Related Artifact | Tank Parts</div>
+</div>
+<div class='entry'>
+<img src='FirstMagusLotCompletedIcon.png' alt='First Magus Lot Completed Icon'>
+<div class='title'>First Magus Lot Completed</div>
+<div class='text'>First Magus lot completed</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>An initial lot of two Magus were completed and sent into trial operation. Development also finished on the CRADLECOFFINs, and pilot training commenced between man and machine human and Magus. Two Magus and two CRADLECOFFINs were created in this lot. The Magus themselves demonstrated humanlike emotions far beyond those observed in the prototype, and garnered high expectations as the future friends of humanity. Despite very brief contact with individuals outside of combat training, they were able to deepen engagement with several humans. Even so, such output was nothing but the result of quantum calculation. Their quantum computers had undergone compulsory miniaturization in the initial lot, putting a tremendous strain on the Magus bodies that resulted in malfunctions in an extremely short period of time. They were deemed impossible to repair, and stored away for safekeeping.</div>
+</div>
+<div class='entry'>
+<img src='HistoricalCompilationTeamEstablishedIcon.png' alt='Historical Compilation Team Established Icon'>
+<div class='title'>Historical Compilation Team Established</div>
+<div class='text'>Historical compilation team established</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Ten years after the collapse of Amasia The former citizens of Old Amasia have completed their relocation to the surface. Those who were settled into their Nests were provided with the opportunity to reflect upon the past. At the behest of the Amasian Nest Organization, the "Historical Compilation Society" initiative was founded. The society's stated mission was to collect what little remained after Amasia's collapseCCTV footage, documents, etc.so that the historical legacy of Amasia would not be buried under the rubble as well. Every creed of Drifter, no matter their spotted past or criminal record, was welcome to join the effort, and their efforts were well compensated. Any recovered material was collected and organized at the headquarters for the Historical Compilation Society, and thorough analyses were conducted in order to shed light upon long-lost truths.</div>
+<div class='text'>Related Artifact | Terminal</div>
+</div>
+<div class='entry'>
+<img src='MassProductionOfGeneral-PurposeMagusIcon.png' alt='Mass Production Of General-Purpose Magus Icon'>
+<div class='title'>Mass Production Of General-Purpose Magus</div>
+<div class='text'>Mass production of general- purpose Magus</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Some new surface bases proceeded to industrialize, and succeeded in the mass production of general-purpose Magus. The human-like elements that manifested in prior Magus models such as psychological singularitywere not prioritized; instead, internal and external durability were emphasized, in order to reduce the need for maintenance. This turned them into beings far removed from humans, in both mind and body. As a result, there was deep-seated criticism of the general-purpose Magus, since they lacked the friends of humanity" aspect present in the first several Magus lots. Even so, some extolled their virtues as the perfect partners, specifically due to this disparity from humans. The matter is still up for debate to this very day.</div>
+<div class='text'>Related Artifact | GeneralPurpose Magus Schematic Data Media</div>
+</div>
+<div class='entry'>
+<img src='PublicationOfThesisOnRaintightIcon.png' alt='Publication Of Thesis On Raintight Icon'>
+<div class='title'>Publication Of Thesis On Raintight</div>
+<div class='text'>Publication of thesis on Raintight</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>A thesis predicting the existence in human blood of a substance called Raintight, capable of resisting Blueschist, was published on the Amasia Research Information Network. It was posted by Dothan, who was just 16 at the time. The thesis was quickly and decisively dismissed by the scientific community as delusional nonsense, with Dothan opening himself up to harsh and ongoing criticism.</div>
+<div class='text'>Related Artifact | Theses</div>
+</div>
+<div class='entry'>
+<img src='RaintightSerumCompletedIcon.png' alt='Raintight Serum Completed Icon'>
+<div class='title'>Raintight Serum Completed</div>
+<div class='text'>Raintight serum completed</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>After the collapse of Amasia, the Raintight serum was created by a medical research team led by Dr. Dothan Kuze and then distributed by the government. Wide-scale production began immediately in a former Amasian research facility on the surface. Administration of the serum began at several sites, and people lined up in droves at each location in the hopes of getting an early dose. Moreover, the personal data of the gene's provider is still completely unknown.</div>
+<div class='text'>Related Artifact | Injection Sticker</div>
+</div>
+<div class='entry'>
+<img src='ResearchBeginsOnAndroidsAndPersonality-drivenAlIcon.png' alt='Research Begins On Androids And Personality-driven Al Icon'>
+<div class='title'>Research Begins On Androids And Personality-driven Al</div>
+<div class='text'>Research begins on androids and personality-driven Al</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Five years since the founding of the city, and the citizens of Amasia Were overflowing with creativity, even developing products and technology that didn't exist at the end of the 21st century. Or maybe they were just lonely. This was the period when work began on autonomous androids, intended for such purposes as cleaning and cooking. The Al used internally in these androids and the organic materials used for their exterior appearance rapidly came to mimic humans, almost as though seeking to create the friends of humanity."</div>
+</div>
+<div class='entry'>
+<img src='StartOfFullImmigrationToAmasiaIcon.png' alt='Start Of Full Immigration To Amasia Icon'>
+<div class='title'>Start Of Full Immigration To Amasia</div>
+<div class='text'>Start of full immigration to Amasia</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>With the completion of the Great Shield, a base for Drifters was also established inside the vertical shaft and the surrounding region was quickly stabilized. Dorms for the construction workers were also created inside the shaft and subsequent work proceeded quickly. When around 80% of the construction work on the Amasia residential districts had been completed, immigration to the new city began in earnest.</div>
+</div>
+<div class='entry'>
+<img src='StricterNewAdministrativePolicyIcon.png' alt='Stricter New Administrative Policy Icon'>
+<div class='title'>Stricter New Administrative Policy</div>
+<div class='text'>Stricter new administrative policy</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>The use of AO energy now had to be controlled, and the Amasian government announced a new policy to that effect. Occupations providing important services were given energy priority, supplies of materials were curtailed, and harsh population control measures were placed on the residents within Amasia. Many of those pushed too far by these changes abandoned the government's system and set up slums in the lowest level of Amasia. Others chose to return to a life on the surface.</div>
+</div>
+<div class='entry'>
+<img src='TheDriftersAre-establishedIcon.png' alt='The Drifters Are-established Icon'>
+<div class='title'>The Drifters Are-established</div>
+<div class='text'>The Drifters are-established</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>Those exploring the outside world while fending off Enders had become essential for gathering resources and information from their surroundings, and were thus highly valued in several sheltered regions. The people would start calling them "Drifters"a term of respect for these valiant vagabonds willing and able to explore long distances. The first Drifters faced overwhelming danger due to the thin plating and lack of Magus support in their Cradles; the chances of them returning safely were below 70%.</div>
+<div class='text'>Related Artifact | Early Cradle Part</div>
+</div>
+<div class='entry'>
+<img src='TheTearsOfTheNewMoonOccursIcon.png' alt='The Tears Of The New Moon Occurs Icon'>
+<div class='title'>The Tears Of The New Moon Occurs</div>
+<div class='text'>The Tears of the New Moon occurs</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>2099, the evening of a new moon... An intense storm began brewing in a vast area centered around the Mediterranean Sea. Heavy rain also began falling on inland areas that had seen little rain up to that pointincluding the area where Amasia would eventually be built. Over the next two days, the rain continued to spread and churn; the people looked to the skies with unease, shielding their eyes from the downpour. Before long, the rain turned blue, and those who touched this tainted deluge met an ignoble end. The floods spread across the world faster than the warnings could, wiping out 92% of the population in the first week. Most information regarding the final throes of this world has been lost. G a % 8 6 ~</div>
+</div>
+<div class='entry'>
+<img src='TheYoshioBoomIcon.png' alt='The Yoshio Boom Icon'>
+<div class='title'>The Yoshio Boom</div>
+<div class='text'>The Yoshio Boom</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>> After the educational show Yoshio was unceremoniously cancelled years prior, businesses were left with excess inventory of stuffed toys of the protagonist. Subsequently, the toys were distributed to childrens institutions and slums for free. Worn from the rough handling of children and attempts to patch them up, they were discovered by a designer who turned them into illustrations and posted them on Amasias local online network. Cute despite its unsettling appearance, its unstable character, and its sorrowful air, the new mascot was a particular hit with downtrodden young women and became the subject of unauthorized merchandise.</div>
+<div class='text'>Related Artifact | y Stuffed Toy u</div>
+</div>
+<div class='entry'>
+<img src='UseOfAoCrystalToProduceEnergyBecomesPossibleIcon.png' alt='Use Of Ao Crystal To Produce Energy Becomes Possible Icon'>
+<div class='title'>Use Of Ao Crystal To Produce Energy Becomes Possible</div>
+<div class='text'>Use of AO Crystal to produce energy becomes possible</div>
+<div class='text'>AD: [Manual Entry]</div>
+<div class='text'>. Drifters often reported seeing Enders in close proximity to AO Crystals, and it was determined that the Enders absorb some kind of energy from the crystals. This discovery launched research projects aiming to harness that energy. A few years later, the technology was created to turn these AO Waves emitted by the crystals into electrical energy. This led to a full- scale operation to harvest as many AO Crystals as possible, as a new source of energy. This in turn had the effect of preventing massive AO Crystals from forming, and of preventing the formation of the Giga Structures that form around them.</div>
+<div class='text'>Related Artifact | AO Engine Prototype</div>
+</div>
+</body>
+</html>

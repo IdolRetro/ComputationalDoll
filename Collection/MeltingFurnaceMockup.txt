@@ -1,0 +1,7 @@
+Melting Furnace Mockup
+
+AD: XXXX
+
+A model of a prototype melting furnace.  Nest furnaces are double torus-type furnaces consisting of two rings with a central melting furnace, but this one indicates a spherical AO melting furnace located between the AO Crystal crushing mechanism and the crystal fragment outlet. It forcibly acquires the lattice energy released when crystals are crushed in a high-pressure, high-temperature furnace environment.
+
+Related Timeline | Experimental AO Crystal melting furnace cor

@@ -1,0 +1,7 @@
+Meteorological Radar
+
+AD: XXXX
+
+An oscillator for weather observation. These oscillators were an essential part of life, with a weather forecaster stating: "There's been an increase in the number of sudden downpours lately. In fact, somebody was caught out in one just yesterday. Those exposed to the blue rains, come down with an incurable disease known as Mosaic Disease. We need accurate weather forecasts now more than ever."
+
+

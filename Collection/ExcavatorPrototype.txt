@@ -1,0 +1,7 @@
+Excavator Prototype
+
+AD: XXXX
+
+In order to collect AO crystals while dodging the threat of Enders, the Drifters needed a way to rapidly mine AO Crystals. The excavator was devised for this purpose. This is the initial prototype of the excavator during its development phase. Over time, the output was increased and the form factor reduced until a two-in-one model with an integrated arm manipulator was ultimately adopted.
+
+Related Timeline | Realization of AO Crystal as energy source
